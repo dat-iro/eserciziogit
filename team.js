@@ -1,5 +1,20 @@
 const team = [];
 
+const stefan = {
+    name : "Stefan",
+    surname : "Petrea",
+    age : "21",
+    city : "Palermo",
+    hobby : "Videogames",
+    favoriteFood : "Sushi",
+    favoriteVideogames : "Inazuma Eleven series",
+    favoriteFilm : "Creed",
+    favouriteBook : "Arsene Lupin ladro gentiluomo",
+    petName : "Kelly"
+};
+
+team.push(stefan);
+=======
 const emilio = {
     name : "Emilio",
     surname : "Sanguiné",
