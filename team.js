@@ -1,6 +1,6 @@
 const team = [];
 
-const Emilio = {
+const emilio = {
     name : "Emilio",
     surname : "Sanguiné",
     age : "21",
@@ -13,10 +13,9 @@ const Emilio = {
     petName : " ",
 }
 
-team.push(Emilio)
+team.push(emilio)
 =======
 const giovanni = {
-
     name : "Giovanni",
     surname : "Spatafora",
     age : 36,
@@ -27,7 +26,6 @@ const giovanni = {
     favoriteFilm : "Quarto Potere",
     favoriteBook : "Sulla strada",
     petName : ""
-
 };
 
 team.push(giovanni)
@@ -46,4 +44,3 @@ const matteo = {
 };
 
 team.push(matteo);
-
