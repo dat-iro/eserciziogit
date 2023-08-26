@@ -14,7 +14,7 @@ const stefan = {
 };
 
 team.push(stefan);
-=======
+
 const emilio = {
     name : "Emilio",
     surname : "Sanguiné",
@@ -29,7 +29,7 @@ const emilio = {
 }
 
 team.push(emilio)
-=======
+
 const giovanni = {
     name : "Giovanni",
     surname : "Spatafora",
@@ -44,7 +44,7 @@ const giovanni = {
 };
 
 team.push(giovanni)
-=======
+
 const matteo = {
     name : "Matteo",
     surname : "Gatto",
