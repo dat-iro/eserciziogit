@@ -1,6 +1,5 @@
 const team = [];
 
-<<<<<<< HEAD
 const Emilio = {
     name : "Emilio",
     surname : "Sanguiné",
@@ -16,7 +15,6 @@ const Emilio = {
 
 team.push(Emilio)
 =======
-<<<<<<< HEAD
 const giovanni = {
 
     name : "Giovanni",
@@ -48,5 +46,4 @@ const matteo = {
 };
 
 team.push(matteo);
->>>>>>> f1ba345bfb27e6bd75e9c592cf37ee40a687d1a1
->>>>>>> d40342419e9790ba383637d4bb6c507f703cb7cc
+
