@@ -3,7 +3,7 @@ const team = [];
 const stefan = {
     name : "Stefan",
     surname : "Petrea",
-    age : "21",
+    age : 21,
     city : "Palermo",
     hobby : "Videogames",
     favoriteFood : "Sushi",
@@ -14,11 +14,11 @@ const stefan = {
 };
 
 team.push(stefan);
-=======
+
 const emilio = {
     name : "Emilio",
     surname : "Sanguiné",
-    age : "21",
+    age : 21,
     city : "Caltanissetta",
     hobby : "Music",
     favoriteFood : "Pizza",
@@ -29,7 +29,7 @@ const emilio = {
 }
 
 team.push(emilio)
-=======
+
 const giovanni = {
     name : "Giovanni",
     surname : "Spatafora",
@@ -44,11 +44,11 @@ const giovanni = {
 };
 
 team.push(giovanni)
-=======
+
 const matteo = {
     name : "Matteo",
     surname : "Gatto",
-    age : "23  ",
+    age : 23,
     city : "Monterotondo",
     hobby : "TCG",
     favoriteFood : "Gelato",
@@ -59,3 +59,11 @@ const matteo = {
 };
 
 team.push(matteo);
+
+
+
+team.sort(function(value1, value2) {  
+    return value1.age - value2.age;
+    })
+
+console.log(team);
