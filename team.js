@@ -33,11 +33,7 @@ team.push(emilio)
 const giovanni = {
     name : "Giovanni",
     surname : "Spatafora",
-<<<<<<< HEAD
-    age : 36,
-=======
     age : "36",
->>>>>>> development
     city : "Palermo",
     hobby : "Videomaking",
     favoriteFood : "Carbonara",
