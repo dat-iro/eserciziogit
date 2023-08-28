@@ -75,6 +75,19 @@ const marco = {
 
 team.push(marco);
 
+const personaggio = {
+  name: "Marco",
+  surname: "Ingraiti",
+  age: 31,
+  city: "Palermo",
+  hobby: "TCG",
+  favoriteFood: "Pizza",
+  favoriteVideoGame: "Pokémon",
+  favoriteFilm: "Into the Wild",
+  favoriteBook: "Siddharta",
+  petName: "Benji",
+};
+
 //Print if there are some members with the same name (name)
 
 for (let i = 0; i < team.length; i++) {
