@@ -1,6 +1,21 @@
 const team = [];
 
-const Emilio = {
+const stefan = {
+    name : "Stefan",
+    surname : "Petrea",
+    age : "21",
+    city : "Palermo",
+    hobby : "Videogames",
+    favoriteFood : "Sushi",
+    favoriteVideogames : "Inazuma Eleven series",
+    favoriteFilm : "Creed",
+    favouriteBook : "Arsene Lupin ladro gentiluomo",
+    petName : "Kelly"
+};
+
+team.push(stefan);
+
+const emilio = {
     name : "Emilio",
     surname : "Sanguiné",
     age : "21",
@@ -13,4 +28,42 @@ const Emilio = {
     petName : " ",
 }
 
-team.push(Emilio)
+team.push(emilio)
+
+const giovanni = {
+    name : "Giovanni",
+    surname : "Spatafora",
+    age : 36,
+    city : "Palermo",
+    hobby : "Videomaking",
+    favoriteFood : "Carbonara",
+    favoriteVideogame : "Pro Evolution Soccer",
+    favoriteFilm : "Quarto Potere",
+    favoriteBook : "Sulla strada",
+    petName : ""
+};
+
+team.push(giovanni)
+
+const matteo = {
+    name : "Matteo",
+    surname : "Gatto",
+    age : "23  ",
+    city : "Monterotondo",
+    hobby : "TCG",
+    favoriteFood : "Gelato",
+    favoriteVideoGame : "Pokémon",
+    favoriteFilm : "Into the Wild",
+    favoriteBook : "Siddharta",
+    petName : "Benji"
+};
+
+team.push(matteo);
+
+for (let i = 0; i < team.length; i++) {
+    for (let j = i + 1; j < team.length; j++) {
+        if (team[i].name === team[j].name) {
+            console.log(`I nomi ${team[i].name} si ripetono.`);
+        }
+    }
+}
