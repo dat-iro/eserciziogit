@@ -60,6 +60,8 @@ const matteo = {
 
 team.push(matteo);
 
+//Print if there are some members with the same name (name)
+
 for (let i = 0; i < team.length; i++) {
     for (let j = i + 1; j < team.length; j++) {
         if (team[i].name === team[j].name) {
