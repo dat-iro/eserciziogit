@@ -66,7 +66,7 @@ const marco = {
   age: 31,
   city: "Palermo",
   hobby: "TCG",
-  favoriteFood: "Gelato",
+  favoriteFood: "Pizza",
   favoriteVideoGame: "Pokémon",
   favoriteFilm: "Into the Wild",
   favoriteBook: "Siddharta",
