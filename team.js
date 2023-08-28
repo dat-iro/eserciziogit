@@ -25,7 +25,7 @@ const emilio = {
     favoriteVideoGame : "Elden Ring",
     favoriteFilm : "Shining",
     favoriteBook : "Lo Hobbit",
-    petName : " ",
+    petName : ""
 }
 
 team.push(emilio)
@@ -62,8 +62,19 @@ team.push(matteo);
 
 
 
+
 team.sort(function(value1, value2) {  
     return value1.age - value2.age;
     })
 
 console.log(team);
+
+let teamInOrder = "I membri del team in ordine crescente d'età sono: ";
+for (let i = 0; i < team.length; i++) {
+    teamInOrder += team[i].name;
+    if (i < team.length - 1) {
+        teamInOrder += ", ";
+    }
+}
+
+console.log(teamInOrder);
