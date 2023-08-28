@@ -88,4 +88,3 @@ sortedBySurname.forEach(member => console.log(member.surname + " " + member.name
 const membersWithPet = team.filter(member => member.petName);
 console.log("I membri che hanno un animale sono:");
 membersWithPet.forEach(member => console.log(member.name + " " + member.surname + " - " + member.petName));
->>>>>>> development
