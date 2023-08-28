@@ -3,7 +3,7 @@ const team = [];
 const stefan = {
     name : "Stefan",
     surname : "Petrea",
-    age : "21",
+    age : 21,
     city : "Palermo",
     hobby : "Videogames",
     favoriteFood : "Sushi",
@@ -18,7 +18,7 @@ team.push(stefan);
 const emilio = {
     name : "Emilio",
     surname : "Sanguiné",
-    age : "21",
+    age : 21,
     city : "Caltanissetta",
     hobby : "Music",
     favoriteFood : "Pizza",
@@ -33,7 +33,7 @@ team.push(emilio)
 const giovanni = {
     name : "Giovanni",
     surname : "Spatafora",
-    age : "36",
+    age : 36,
     city : "Palermo",
     hobby : "Videomaking",
     favoriteFood : "Carbonara",
@@ -48,7 +48,7 @@ team.push(giovanni)
 const matteo = {
     name : "Matteo",
     surname : "Gatto",
-    age : "23  ",
+    age : 23,
     city : "Monterotondo",
     hobby : "TCG",
     favoriteFood : "Gelato",
@@ -79,8 +79,21 @@ sortedBySurname.forEach(member => console.log(member.surname + " " + member.name
 
 
 
-//Print who has a pet (name petName)
+team.sort(function(value1, value2) {  
+    return value1.age - value2.age;
+    })
 
 const membersWithPet = team.filter(member => member.petName);
 console.log("I membri che hanno un animale sono:");
 membersWithPet.forEach(member => console.log(member.name + " " + member.surname + " - " + member.petName));
+console.log(team);
+
+let teamInOrder = "I membri del team in ordine crescente d'età sono: ";
+for (let i = 0; i < team.length; i++) {
+    teamInOrder += team[i].name;
+    if (i < team.length - 1) {
+        teamInOrder += ", ";
+    }
+}
+
+console.log(teamInOrder);
