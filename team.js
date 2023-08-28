@@ -25,7 +25,7 @@ const emilio = {
     favoriteVideoGame : "Elden Ring",
     favoriteFilm : "Shining",
     favoriteBook : "Lo Hobbit",
-    petName : " ",
+    petName : ""
 }
 
 team.push(emilio)
@@ -33,7 +33,11 @@ team.push(emilio)
 const giovanni = {
     name : "Giovanni",
     surname : "Spatafora",
+<<<<<<< HEAD
     age : 36,
+=======
+    age : "36",
+>>>>>>> development
     city : "Palermo",
     hobby : "Videomaking",
     favoriteFood : "Carbonara",
@@ -60,6 +64,7 @@ const matteo = {
 
 team.push(matteo);
 
+
 //Print if there are some members with the same name (name)
 
 for (let i = 0; i < team.length; i++) {
@@ -69,3 +74,18 @@ for (let i = 0; i < team.length; i++) {
         }
     }
 }
+
+//Print the team in alphabetical order (surname name)
+
+const sortedBySurname = team.sort((a, b) => a.surname.localeCompare(b.surname));
+console.log("Team in ordine alfabetico:");
+sortedBySurname.forEach(member => console.log(member.surname + " " + member.name));
+
+
+
+//Print who has a pet (name petName)
+
+const membersWithPet = team.filter(member => member.petName);
+console.log("I membri che hanno un animale sono:");
+membersWithPet.forEach(member => console.log(member.name + " " + member.surname + " - " + member.petName));
+>>>>>>> development
